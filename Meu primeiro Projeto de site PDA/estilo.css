@@ -1,0 +1,51 @@
+body{
+    background-image: url(fundo\ do\ site.jfif);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style:normal;
+    font-size:medium;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #DC143C;
+    padding: 10px;
+    margin-top: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+header nav ul{
+    display:flex;
+    gap: 15px;
+}
+header nav ul li{
+    list-style: none;
+    
+    
+}
+.display-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+main{
+    background-color:#483D8B;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#Fonte{
+    color: #DC143C;
+}
+footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
